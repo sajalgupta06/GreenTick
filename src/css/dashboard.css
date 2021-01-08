@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 *{
   box-sizing: border-box;
 }
@@ -51,6 +51,25 @@
 
 #card2 {
   width: 100%;
+  color: #000;
+}
+#card2 .level
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+  margin-right: 2em;
+  font-family: "Poppins";
+}
+#card2 .level h4{
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  font-size: 1em;
+}
+.problem_solved h6{
+  font-family: "Poppins";
 }
 
 #card1 img{

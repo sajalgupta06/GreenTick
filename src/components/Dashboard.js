@@ -38,7 +38,19 @@ export default function Dashboard() {
           <h4>ultimate_coder</h4>
         </div>
       </div>
-      <div className="card2" id="card2"></div>
+      <div className="card2" id="card2">
+      <div className="problem_solved">
+      <h6 style={{color:"#960f0f",fontWeight:"900"}}>Problem Solved</h6>
+      
+      <span style={{fontWeight:"700"}}>200</span>
+      </div>
+      <div className="level">
+        <h4 style={{color:"green",fontWeight:"900"}}>Easy<br></br><h5>200</h5></h4>
+        <h4 style={{color:"#ffa800",fontWeight:"900"}}>Medium<br></br><h5>200</h5></h4>
+        <h4 style={{color:"red",fontWeight:"900"}}>Hard<br></br><h5>200</h5></h4>
+      </div>
+      
+      </div>
 
       <div className="card2" id="card3">
         <div className="react_icons">

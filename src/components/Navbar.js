@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
-import { FaRegUserCircle } from "react-icons/fa";
-import { IoNotificationsOutline } from "react-icons/io5";
+
 import {Link} from 'react-router-dom'
 
 export default function Navbar() {
