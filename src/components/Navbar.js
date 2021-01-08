@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../css/navbar.css";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoNotificationsOutline } from "react-icons/io5";
+import {Link} from 'react-router-dom'
+
 export default function Navbar() {
 
   const [classname, setClassName] = useState(true);
@@ -18,29 +20,19 @@ export default function Navbar() {
 
           <ul className= {classname?"nav-ul":"nav-ul visible"}>
             <li>
-              <a href="#" className="nav-link">
-                Home
-              </a>
+            <Link to='/home' className="nav-link" >Home</Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
-                Practice
-              </a>
+            <Link to='/Practice' className="nav-link" >Practice</Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
-                Learn
-              </a>
+            <Link to='/learn' className="nav-link" >Learn</Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
-                Contests
-              </a>
+            <Link to='/contestPage' className="nav-link" >Contest</Link>
             </li>
             <li>
-              <a href="#" className="nav-link">
-                Discussion
-              </a>
+            <Link to='/discussion' className="nav-link" >Discussion</Link>
             </li>
           </ul>
         </div>

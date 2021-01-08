@@ -51,7 +51,7 @@ body {
     
 }
 .card__side--front {
-  
+  color: #fff;
     
 }
 .card__side--back {
@@ -84,6 +84,10 @@ body {
 .card__cta
 {
     padding: 15px;
+    background-color:#4e6ddb ;
+    color:#fff;
+    height: 100%;
+    
 }
 .card__cta h3 {
     position: absolute;
@@ -91,15 +95,15 @@ body {
     left: 45%;
     transform: translate(-50%, -50%);
     width: 90%;
-    color: #4e6ddb;
+    color: #fff;
     font-size: 1.8em;
     font-weight: 900;
     padding: 15px;
 }
 .card__cta .mainHeading
 {
-    color:#4e6ddb;
-    font-weight: 900;
+    color:#fff;
+    font-weight: 700;
     font-size: 1.4em;
 }
 .card__cta p > .space {

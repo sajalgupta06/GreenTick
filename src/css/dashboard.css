@@ -1,0 +1,121 @@
+
+*{
+  box-sizing: border-box;
+}
+/* .card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 14rem;
+} */
+.my-grid{
+  display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.cards1 {
+
+  max-width: 100%;
+  margin-top: 3.2em;
+  display: inline-grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  /* grid-template-columns: auto auto auto auto; */
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+.card2 {
+  width: 100%;
+  background-color: #fff !important;
+  color: white;
+  padding: 1rem;
+  height: 14rem;
+  perspective: 150rem;
+  height: 12rem;
+  position: relative;
+  border-radius: 20px;
+}
+#card4 {
+  width: 100%;
+  height: 20em;
+  
+}
+
+#card3 {
+  top: -49px;
+  height: 23em;
+}
+
+#card2 {
+  width: 100%;
+}
+
+#card1 img{
+  width: 50px;
+  height:50px;
+}
+
+#card1 {
+  height: 9em;
+  align-items: center;
+    display: flex;
+    background-color: #f1f1f1!important;
+}
+#card1 img{
+  width: 4em;
+  height: 4em;
+}
+.box_content{
+  position: relative;
+    margin-left: 29px;
+}
+.box_content h2{
+  font-size: 1.5em;
+  top: -5px;
+  color: black
+}
+.box_content h4{
+  color: #000;
+    position: bottom;
+    font-size: 1em;
+    font-family: 'poppins';
+}
+#card3 .react_icons{
+  /* left: 2em;
+    position: relative;
+    top: 3em; */
+    /* color: #000!important; */
+    justify-content: center;
+    display: flex;
+}
+.dash-custom-counter {
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #fff;
+  border-radius: 20px
+  
+}
+
+@media screen and (max-width: 576px){
+
+  .cards1{
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-top: 0.2em;
+  
+  }
+
+  #card3{
+    top:0!important;
+    /* height:12em; */
+  }
+  .card2{
+    width:100%!important;
+  }
+}
