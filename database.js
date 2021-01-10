@@ -1,0 +1,32 @@
+export const ARRAY = [
+    {
+        id:1,
+        name:"question1", 
+        level:"easy"
+    },
+    {
+        id:2,
+        name:"question2", 
+        level:"easy"
+    },
+    {
+        id:3,
+        name:"question3", 
+        level:"medium"
+    },
+    {
+        id:4,
+        name:"question4", 
+        level:"medium"
+    },
+    {
+        id:5,
+        name:"question5", 
+        level:"hard"
+    },
+    {
+        id:6,
+        name:"question6", 
+        level:"hard"
+    },
+];
