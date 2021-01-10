@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/progressbar.css";
 import ProgressBar from "./progress-bar.component";
 
 const backCard1={
