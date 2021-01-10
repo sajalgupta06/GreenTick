@@ -6,9 +6,9 @@
   padding: 0;
 }
 
-.container {
+.nav-container {
   display: flex;
-  align-items: center;
+  align-items: left;
   margin: 0 0.5em;
 }
 
@@ -112,5 +112,8 @@ h1 {
     width: 100%;
     height: 100%;
     margin-top: 13px;
+  }
+  .container{
+    margin:0;
   }
 }

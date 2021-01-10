@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <div className="container">
+        <div className="nav-container">
           <i
             className="fas fa-bars"
             onClick={() => {
