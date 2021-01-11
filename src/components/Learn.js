@@ -99,7 +99,7 @@ function Learn() {
     	
     	<div style={backCard3}>
     	 <h4 style={{color:"#000",fontWeight:"600"}}>DP<br></br></h4>
-    	<ProgressBar bgcolor="#6a1b9a" completed="60" subtopics="2"/>
+    	<ProgressBar bgcolor="#6a1b9a" completed="54" subtopics="2"/>
     	</div>
     	
     	<div style={backCard4}>
