@@ -38,7 +38,7 @@ body {
 }
 .card__side {
     height: 100%;
-    transition: all 0.8s ease;
+    /* transition: all 0.8s ease; */
     position: absolute;
     top: 0;
     left: 0;
@@ -55,12 +55,12 @@ body {
     
 }
 .card__side--back {
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
     background-color: #4e6ddb;
     
 }
 .card:hover .card__side--front {
-    transform: rotateY(-180deg);
+    /* transform: rotateY(-180deg); */
     background-color: #f1f1f1;
    
 }

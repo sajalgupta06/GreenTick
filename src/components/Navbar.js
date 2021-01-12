@@ -33,6 +33,9 @@ export default function Navbar() {
             <li>
             <Link to='/discussion' className="nav-link" >Discussion</Link>
             </li>
+            <li>
+            <Link to='/profile' className="nav-link" >Profile</Link>
+            </li>
           </ul>
         </div>
       </nav>

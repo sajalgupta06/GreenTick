@@ -1,4 +1,6 @@
 import "../css/card.css";
+import {Link} from 'react-router-dom'
+import {IndexLink} from 'react-router'
 
 function ContestPage() {
  const data = [
@@ -20,13 +22,15 @@ function ContestPage() {
       </li>,
     ];
   
-
+    const contestLink = "https://www.hackerrank.com/greenticks-weekly-11"
   return (
     <div>
       
 
       <div className="content">
         <div className="card">
+        <a href={contestLink}>
+        
           <div className="card__side card__side--front">
           <div className="card__cta">
           <span style={{ color: "#fff", marginBottom: "10px" }}>
@@ -46,12 +50,8 @@ function ContestPage() {
         </div>
             
           </div>
-          <div className="card__side card__side--back">
-          <div className="card__cont">Be Ready!!</div>
-          
-          
+          </a>
             </div>
-        </div>
       </div>
         
       <div className="table">
