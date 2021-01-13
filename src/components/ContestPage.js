@@ -3,24 +3,32 @@ import {Link} from 'react-router-dom'
 import {IndexLink} from 'react-router'
 
 function ContestPage() {
- const data = [
-      <li>
-        Greentick Weekly 19<br></br>
-        <h6>December 18 2020 at 2:00 PM</h6>
-      </li>,
-      <li>
-        Greentick Weekly 19<br></br>
-        <h6>December 18 2020 at 2:00 PM</h6>
-      </li>,
-      <li>
-        Greentick Weekly 19<br></br>
-        <h6>December 18 2020 at 2:00 PM</h6>
-      </li>,
-      <li>
-        Greentick Weekly 19<br></br>
-        <h6>December 18 2020 at 2:00 PM</h6>
-      </li>,
-    ];
+  const data = [
+    {
+      name:"Greentick Weekly 19",
+      date:"December 18 2020 at 2:00 PM"
+    },
+    {
+      name:"Greentick Weekly 19",
+      date:"December 18 2020 at 2:00 PM"
+    },
+    {
+      name:"Greentick Weekly 19",
+      date:"December 18 2020 at 2:00 PM"
+    },
+    {
+      name:"Greentick Weekly 19",
+      date:"December 18 2020 at 2:00 PM"
+    },
+    {
+      name:"Greentick Weekly 19",
+      date:"December 18 2020 at 2:00 PM"
+    },
+    {
+      name:"Greentick Weekly 19",
+      date:"December 18 2020 at 2:00 PM"
+    },
+];
   
     const contestLink = "https://www.hackerrank.com/greenticks-weekly-11"
   return (
@@ -57,9 +65,12 @@ function ContestPage() {
       <div className="table">
         <ol className="custom-counter">
           <h5 className="tableHeading">Previous Contest</h5>
-         {data.map(items=>{
-           return items
-         })}
+          {data.map(items=>{
+            return <li>
+              {items.name}<br></br>
+              <h6 style={{    right: "0.6em"}}>{items.date}</h6>
+            </li>
+          })}
         </ol>
       </div>
     </div>

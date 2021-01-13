@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
 
-import {Link} from 'react-router-dom'
+import { Link ,NavLink} from "react-router-dom";
 
 export default function Navbar() {
-
   const [classname, setClassName] = useState(true);
   return (
     <div>
@@ -17,24 +16,96 @@ export default function Navbar() {
             }}
           ></i>
 
-          <ul className= {classname?"nav-ul":"nav-ul visible"}>
+          <ul className={classname ? "nav-ul" : "nav-ul visible"}>
             <li>
-            <Link to='/home' className="nav-link" >Home</Link>
+              <NavLink
+                to="/home"
+                className="nav-link"
+                onClick={() => {
+                  setClassName(!classname);
+                }}
+                activeStyle={{
+                  
+                  color: "#4e6ddb"
+                }}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-            <Link to='/Practice' className="nav-link" >Practice</Link>
+              <NavLink
+                to="/Practice"
+                className="nav-link"
+                onClick={() => {
+                  setClassName(!classname);
+                }}
+                activeStyle={{
+                  
+                  color: "#4e6ddb"
+                }}
+              >
+                Practice
+              </NavLink>
             </li>
             <li>
-            <Link to='/learn' className="nav-link" >Learn</Link>
+              <NavLink
+                to="/learn"
+                className="nav-link"
+                onClick={() => {
+                  setClassName(!classname);
+                }}
+                activeStyle={{
+                  
+                  color: "#4e6ddb"
+                }}
+              >
+                Learn
+              </NavLink>
             </li>
             <li>
-            <Link to='/contestPage' className="nav-link" >Contest</Link>
+              <NavLink
+                to="/contestPage"
+                className="nav-link"
+                onClick={() => {
+                  setClassName(!classname);
+                }}
+                activeStyle={{
+                  
+                  color: "#4e6ddb"
+                }}
+              >
+                Contest
+              </NavLink>
             </li>
             <li>
-            <Link to='/discussion' className="nav-link" >Discussion</Link>
+              <NavLink
+                to="/discussion"
+                className="nav-link"
+                onClick={() => {
+                  setClassName(!classname);
+                }}
+                activeStyle={{
+                  
+                  color: "#4e6ddb"
+                }}
+              >
+                Discussion
+              </NavLink>
             </li>
             <li>
-            <Link to='/profile' className="nav-link" >Profile</Link>
+              <NavLink
+                to="/profile"
+                className="nav-link"
+                onClick={() => {
+                  setClassName(!classname);
+                }}
+                activeStyle={{
+                  
+                  color: "#4e6ddb"
+                }}
+              >
+                Profile
+              </NavLink>
             </li>
           </ul>
         </div>

@@ -16,11 +16,11 @@
 }
 .cards1 {
 
-  max-width: 100%;
+  max-width: 100%!important;
   margin-top: 3.2em;
   display: inline-grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  grid-template-columns: 1fr 2fr;
   /* grid-template-columns: auto auto auto auto; */
   margin-left: 10px;
   margin-right: 10px;
@@ -40,19 +40,24 @@
 }
 #card4 {
   width: 100%;
-  height: 20em;
+  height: 331px;
   
+}
+#card4 .table{
+  height: 294px;
 }
 
 #card3 {
-  top: -49px;
-  height: 23em;
+  top: -104px;
+  height: 434px;
 }
 
 #card2 {
   width: 100%;
   color: #000;
+  height: 14em;
 }
+
 #card2 .level
 {
   display: flex;
@@ -136,5 +141,8 @@
   }
   .card2{
     width:100%!important;
+  }
+  .canvas canvas{
+    left:66px!important;
   }
 }

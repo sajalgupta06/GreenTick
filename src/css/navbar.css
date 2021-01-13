@@ -100,6 +100,7 @@ h1 {
     width: 10em;
     height: 15em;
   }
+  
 
   .nav-ul li {
     padding: 1em 0;
@@ -112,6 +113,7 @@ h1 {
     width: 100%;
     height: 100%;
     margin-top: 13px;
+    margin-left: -19px;
   }
   .container{
     margin:0;
