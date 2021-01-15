@@ -1,0 +1,235 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background:#f1f1f1;
+}
+
+.content {
+    height: 40vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.cardl1 {
+    perspective: 150rem;
+    height: 12rem;
+    width: 30%;
+    position: absolute;
+    width: 666.6px;
+    height: 17%;
+    left: 152px;
+    top: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 3.2em;
+}
+
+.cardl2 {
+    perspective: 150rem;
+    height: 12rem;
+    width: 30%;
+    position: absolute;
+    width: 666.6px;
+    height: 17%;
+    left: 1026.4px;
+    top: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 3.2em;
+}
+.cardl3 {
+    perspective: 150rem;
+    height: 12rem;
+    width: 30%;
+    position: absolute;
+    width: 666.6px;
+    height: 17%;
+    left: 152px;
+    top: 350px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 3.2em;
+}
+
+
+.cardl4 {
+    perspective: 150rem;
+    height: 12rem;
+    width: 30%;
+    position: absolute;
+    width: 666.6px;
+    height: 17%;
+    left: 1026.4px;
+    top: 350px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 3.2em;
+}
+.cardl5 {
+    perspective: 150rem;
+    height: 12rem;
+    width: 30%;
+    position: absolute;
+    width: 666.6px;
+    height: 17%;
+    left: 152px;
+    top: 620px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 3.2em;
+}
+
+.card__inside
+{
+    padding: 15px;
+    background-color:#fff ;
+    border-radius: 20px;
+    color:#fff;
+    height: 100%;
+    position: 'absolute';
+    left: 50;
+    right: 0;
+    top: 50;
+    bottom: 0;
+   /* overflow: hidden;*/
+    
+}
+
+.card__inside .mainHeading
+{
+    color:#000;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+ 
+
+@media screen and (max-width:972px)
+{
+   .cardl1{
+        width:60%;
+        position: absolute;
+	      height: 17%;
+        left: 90px;
+        top: 100;/*100px;*/
+    }
+    
+    .cardl2{
+        width:60%;
+        position: absolute;
+        height: 17%;
+        left: 90px;
+        top: 300px;
+    }
+    .cardl3{
+        width:60%;
+        position: absolute;
+        height: 17%;
+        left: 90px;
+        top: 500px;
+    }
+    .cardl4{
+        width:60%;
+        position: absolute;
+        height: 17%;
+        left: 90px;
+        top: 700px;
+    }
+    .cardl5{
+        width:60%;
+        position: absolute;
+        height: 17%;
+        left: 90px;
+        top: 900px;
+    }
+	
+
+}
+
+@media screen and (max-width:660px)
+{
+    .cardl1{
+        width:70%;
+        position: absolute;
+        height: 17%;
+        left: 20px;
+        top: 100px;
+    }
+    
+    .cardl2{
+        width:70%;
+        position: absolute;
+        height: 17%;
+        left: 20px;
+        top: 300px;
+    }
+    .cardl3{
+        width:70%;
+        position: absolute;
+        height: 17%;
+        left: 20px;
+        top: 500px;
+    }
+    .cardl4{
+        width:70%;
+        position: absolute;
+        height: 17%;
+        left: 20px;
+        top: 700px;
+    }
+    .cardl5{
+        width:70%;
+        position: absolute;
+        height: 17%;
+        left: 20px;
+        top: 900px;
+    }
+    
+}
+
+@media screen and (max-width:384px)
+{
+     
+    .cardl1{
+        width:90%;
+        position: absolute;
+        height: 17%;
+        left: 10px;
+        top: 100px;
+    }
+    
+    .cardl2{
+        width:90%;
+        position: absolute;
+        height: 17%;
+        left: 10px;
+        top: 300px;
+   }
+    .cardl3{
+        width:90%;
+        position: absolute;
+        height: 17%;
+        left: 10px;
+        top: 500px;
+    }
+    .cardl4{
+        width:80%;
+        position: absolute;
+        height: 17%;
+        left: 10px;
+        top: 700px;
+    }
+    .cardl5{
+        width:80%;
+        position: absolute;
+        height: 17%;
+        left: 10px;
+        /*top: 900px;*/
+        bottom: 0 ;
+    }
+
+}
+
+
+
