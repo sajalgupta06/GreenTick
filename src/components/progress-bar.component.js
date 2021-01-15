@@ -7,19 +7,33 @@ const ProgressBar = (props) => {
   const containerStyles = {
     position: 'absolute',
     height: 20,
-    width: '80%',
-    backgroundColor: "#e0e0de",
-    borderRadius: 50,
-    margin: 20
+    width: '70%',
+    backgroundColor:"#fff", /*"#e0e0de",*/
+    borderRadius: 0,
+    margin: 20,
+    textAlign: 'left'
+    
   }
 
   const fillerStyles = {
     height: '100%',
     width: `${completed}%`,
     backgroundColor: bgcolor,
-    borderRadius: 'inherit',
+    borderRadius: 0,//'inherit',
     textAlign: 'right'
     
+  }
+  
+  const fillerText={
+    padding: 5,
+    color: 'black',
+    fontWeight: 'bold',
+    textAlign: 'right',
+    position: 'absolute',
+    left: "0.1 rem",/*500,*/
+    right: 0,
+    top: -6,
+    bottom: 0
   }
 
   const labelStyles = {
@@ -44,13 +58,11 @@ const ProgressBar = (props) => {
   return (
   
     <div style={containerStyles}>
-      <div style={fillerStyles}>
-        <span style={labelStyles}>{`${completed}%`}</span>
-        
-      </div>
-      <span style={subTitles}>{`${subtopics} Subtopics`}</span>
+      <div style={fillerStyles}></div>
+       <span style={fillerText}>{`${100-completed}%`}</span>
+      <span style={subTitles}>{`${subtopics} Completed`}</span>
+      
     </div>
-  
   );
 };
 
