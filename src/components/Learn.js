@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/learn.css";
+import "../css/Learn.css";
 import ProgressBar from "./progress-bar.component";
 import {Link} from 'react-router-dom'
 
