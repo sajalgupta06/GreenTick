@@ -10,6 +10,7 @@ import Learn from "./components/Learn";
 import Discussion from "./components/Discussion";
 import Home from "./components/Home";
 import Practice from "./components/Practice";
+import Resource from "./components/Resources";
 
 function App() {
  
@@ -18,11 +19,11 @@ function App() {
     <BrowserRouter>
     <Navbar></Navbar>
     <Switch>
-    <Route exact path='/' component={Dashboard}></Route>
+    <Route exact path='/profile' component={Dashboard}></Route>
     <Route exact path='/home' component={Home}></Route>
     <Route exact path='/contestPage' component={ContestPage}></Route>
     <Route exact path='/learn' component={Learn}></Route>
-    <Route exact path='/discussion' component={Graph}></Route>
+    <Route exact path='/discussion' component={Resource}></Route>
     <Route exact path='/practice' component={Practice}></Route>
     </Switch>
     </BrowserRouter>

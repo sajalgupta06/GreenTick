@@ -21,7 +21,7 @@ body {
     color: #ef5350;
 }
 .content {
-    height: 40vh;
+    margin-bottom: 2em;
     color: #f1f1f1;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
 .card {
     perspective: 150rem;
     height: 12rem;
-    width: 30%;
+    width: 35%;
     position: relative;
     border-radius: 20px;
     background-color: #f1f1f1;
@@ -38,7 +38,7 @@ body {
 }
 .card__side {
     height: 100%;
-    transition: all 0.8s ease;
+    /* transition: all 0.8s ease; */
     position: absolute;
     top: 0;
     left: 0;
@@ -55,12 +55,12 @@ body {
     
 }
 .card__side--back {
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
     background-color: #4e6ddb;
     
 }
 .card:hover .card__side--front {
-    transform: rotateY(-180deg);
+    /* transform: rotateY(-180deg); */
     background-color: #f1f1f1;
    
 }
@@ -117,12 +117,17 @@ body {
     margin: 5px;
     padding: 10px;
     list-style-type: none;
-    width: 30%;
+    width: 35%;
     overflow: scroll;
     overflow-x: hidden;
     background-color: #fff;
     border-radius: 20px
     
+  }
+
+  .custom-counter h5{
+    margin-top: 1em;
+    MARGIN-LEFT: 0.8em;
   }
   
   .custom-counter li {
@@ -132,7 +137,7 @@ body {
   
 .table
 {
-    height: 280px;
+    height: 356px;
     
     display: flex;
     justify-content: center;

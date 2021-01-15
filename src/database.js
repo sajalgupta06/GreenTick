@@ -30,3 +30,9 @@ export const ARRAY = [
         level:"Hard"
     },
 ]; 
+export const RESOURCES=[
+    "Addressing1","Addressing2","Addressing3", "Addressing4","Addressing5","Addressing6","Addressing7","Addressing8"
+];
+export const VIDEOS=[
+    "Video1","Video2"
+];
