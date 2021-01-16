@@ -1,124 +1,100 @@
 import React from "react";
+import "../css/Learn.css";
 import ProgressBar from "./progress-bar.component";
+import {Link} from 'react-router-dom'
 
-const backCard1={
-    position: 'left',
-    height: 150,
-    width: '35%',
-    backgroundColor: "#fff",
-    borderRadius:10,
-    margin: 50,
-    position: 'absolute',
-    left: 100,
-    right: 0,
-    top: 100,
-    bottom: 0,
-    padding:10	
-    
-  }
-  const backCard5={
-    alignSelf: 'flex-end',
-    height: 150,
-    width: '35%',
-    backgroundColor: "#fff",
-    borderRadius:10,
-    marginLeft: 900,
-   position: 'absolute',
-    left: -400,
-    right:100,
-    top: 400,
-    bottom: 0,
-    padding:10		   
-  }
-  const backCard4={
-    position: 'left',
-    height: 150,
-    width: '35%',
-    backgroundColor: "#fff",
-    borderRadius:10,
-    margin: 50,
-    position: 'absolute',
-    left: 100,
-    right: 0,
-    top: 600,
-    bottom: 0,
-    padding:10	
-    
-  }
-const backCard2={
-    alignSelf: 'flex-end',
-    height: 150,
-    width: '35%',
-    backgroundColor: "#fff",
-    borderRadius:10,
-    marginLeft: 900,
-   position: 'absolute',
-    left: 100,
-    right: 0,
-    top: 150,
-    bottom: 0,
-    padding:10		   
-  }
-  
-  const backCard3={
-   
-    alignSelf: 'flex-end',
-    height: 150,
-    width: '35%',
-    backgroundColor: "#fff",
-    borderRadius:10,
-    marginLeft: 900,
-    position: 'absolute',
-    left: 100,
-    right: 0,
-    top: 650,
-    bottom: 0,
-    padding:10	
-    
-  }
-  
-  
-  
-  
+
 function Learn() {
+
+	 var done1=2;
+	 var total1=6;
+	 var completed1=Math.floor( done1*100/total1);
+	 
+	 var done2=3;
+	 var total2=6;
+	 var completed2=Math.floor( done2*100/total2);
+	 
+	 var done3=4;
+	 var total3=6;
+	 var completed3=Math.floor( done3*100/total3);
+	 
+	 var done4=3;
+	 var total4=6;
+	 var completed4=Math.floor( done4*100/total4);
+	 
+	 var done5=5;
+	 var total5=6;
+	 var completed5=Math.floor( done5*100/total5);
+	 
   return (
-  	
+    	
     <div className="Learn">
     	<h1>Learn</h1>
     
+ 
+    <div className="content">
+        <div className="cardl1">
+        <Link id="arrays" to='/Practice'>
+          <div className="card__inside">         
+          <h4 style={{color:"#000",fontWeight:"600"}}>Arrays</h4>
+          <ProgressBar bgcolor="#0FBB00" completed={`${completed1}`} subtopics={`${done1}/${total1}`}/>
+           </div>
+           </Link>
+           </div>
+      </div>
+      
+      <div className="content">
+        <div className="cardl2">
+        <Link id="arrays" to='/Practice'>
+          <div className="card__inside">
+          <h4 style={{color:"#000",fontWeight:"600"}}>DP</h4>
+          <ProgressBar bgcolor="#0FBB00" completed={`${completed2}`} subtopics={`${done2}/${total2}`}/>
+           </div>
+           </Link>
+           </div>
+      </div>
     
-    <div style={backCard1}>
-    	<h4 style={{color:"#000",fontWeight:"600"}}>Arrays<br></br></h4>
-    	<ProgressBar bgcolor="#6a1b9a" completed="60" subtopics="6"/>
-    	</div>
-    	
-    	<div style={backCard2}>
-    	<h4 style={{color:"#000",fontWeight:"600"}}>Linked Lists<br></br></h4>
-    	<ProgressBar bgcolor="#6a1b9a" completed="60" subtopics="5"/>
-    	</div>
-    	
-    	<div style={backCard3}>
-    	 <h4 style={{color:"#000",fontWeight:"600"}}>DP<br></br></h4>
-    	<ProgressBar bgcolor="#6a1b9a" completed="54" subtopics="2"/>
-    	</div>
-    	
-    	<div style={backCard4}>
-    	 <h4 style={{color:"#000",fontWeight:"600"}}>Trees<br></br></h4>
-    	<ProgressBar bgcolor="#6a1b9a" completed="60" subtopics="2"/>
-    	</div>
-    	
-    	<div style={backCard5}>
-    	 <h4 style={{color:"#000",fontWeight:"600"}}>Graphs<br></br></h4>
-    	<ProgressBar bgcolor="#6a1b9a" completed="60" subtopics="2"/>
-    	</div>
-    	
-    	
-    	
+    <div className="content">
+        <div className="cardl3">
+        <Link id="arrays" to='/Practice'>
+          <div className="card__inside">
+          <h4 style={{color:"#000",fontWeight:"600"}}>Linked Lists</h4>
+          <ProgressBar bgcolor="#0FBB00" completed={`${completed3}`} subtopics={`${done3}/${total3}`}/>
+           </div>
+           </Link>
+           </div>
+      </div>
+      
+      <div className="content">
+        <div className="cardl4">
+        <Link id="arrays" to='/Practice'>
+          <div className="card__inside">
+          <h4 style={{color:"#000",fontWeight:"600"}}>Trees</h4>
+          <ProgressBar bgcolor="#0FBB00" completed={`${completed4}`} subtopics={`${done4}/${total4}`}/>
+           </div>
+           </Link>
+           </div>
+      </div>
+      
+      <div className="content">
+        <div className="cardl5">
+        <Link id="arrays" to='/Practice'>
+          <div className="card__inside">
+          <h4 style={{color:"#000",fontWeight:"600"}}>Graphs</h4>
+          <ProgressBar bgcolor="#0FBB00" completed={`${completed5}`} subtopics={`${done5}/${total5}`}/>
+           </div>
+           </Link>
+           </div>
+      </div>	
+    	  	
     </div>	
-    	
-    	
-    
+   
 );
 }
 
 export default Learn;
+ 
+
+
+
+
