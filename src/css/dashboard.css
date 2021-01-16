@@ -137,7 +137,9 @@
 
   #card3{
     top:0!important;
-    /* height:12em; */
+    /* height:10em; */
+    order: 1;
+
   }
   .card2{
     width:100%!important;
@@ -145,4 +147,5 @@
   .canvas canvas{
     left:66px!important;
   }
+
 }
