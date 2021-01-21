@@ -1,17 +1,26 @@
 import React from "react";
 
+
 const ProgressBar = (props) => {
   const {bgcolor, completed,subtopics } = props;
   
 
+ 
+
   const containerStyles = {
-    position: 'absolute',
-    height: 20,
-    width: '70%',
-    backgroundColor:"#fff", /*"#e0e0de",*/
+    
+    height: '18%',
+    width: '85%',
+    backgroundColor:"#e0e0de", /*"#e0e0de",*/
     borderRadius: 0,
-    margin: 20,
-    textAlign: 'left'
+    margin: '4%',
+    textAlign: 'left',
+    
+    position: 'absolute',
+    left: '3%',/*"0.1 rem",*/
+    right: '0%',
+    top: '26%',
+    bottom: '0%',
     
   }
 
@@ -19,21 +28,23 @@ const ProgressBar = (props) => {
     height: '100%',
     width: `${completed}%`,
     backgroundColor: bgcolor,
-    borderRadius: 0,//'inherit',
-    textAlign: 'right'
+    borderRadius: 0,
+    textAlign: 'right',
+    
     
   }
   
   const fillerText={
-    padding: 5,
+    padding: '0.5%',
     color: 'black',
     fontWeight: 'bold',
     textAlign: 'right',
-    position: 'absolute',
-    left: "0.1 rem",/*500,*/
-    right: 0,
-    top: -6,
-    bottom: 0
+    position: 'relative',
+    left:'85%',
+    /*right: 0,*/
+    top: '-100%',
+    fontSize:'2.0vh'
+    
   }
 
   const labelStyles = {
@@ -43,14 +54,14 @@ const ProgressBar = (props) => {
   }
   
   const subTitles={
-    padding: 5,
+    /*padding: '1%',*/
     color: 'black',
     margin: 5,
     position: 'absolute',
-    left: 0,
+    left: '1%',
     right: 0,
-    top: 20,
-    bottom: 0
+    top: '115%',
+    fontSize:'2.3vh'
     	
     
   }
