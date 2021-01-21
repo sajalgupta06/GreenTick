@@ -4,9 +4,6 @@ import React from "react";
 const ProgressBar = (props) => {
   const {bgcolor, completed,subtopics } = props;
   
-
- 
-
   const containerStyles = {
     
     height: '18%',
@@ -16,10 +13,10 @@ const ProgressBar = (props) => {
     margin: '4%',
     textAlign: 'left',
     
-    position: 'absolute',
+    position: 'relative',
     left: '3%',/*"0.1 rem",*/
     right: '0%',
-    top: '26%',
+    top: '2%',
     bottom: '0%',
     
   }
@@ -29,7 +26,7 @@ const ProgressBar = (props) => {
     width: `${completed}%`,
     backgroundColor: bgcolor,
     borderRadius: 0,
-    textAlign: 'right',
+   /* textAlign: 'right',*/
     
     
   }
@@ -40,10 +37,10 @@ const ProgressBar = (props) => {
     fontWeight: 'bold',
     textAlign: 'right',
     position: 'relative',
-    left:'85%',
-    /*right: 0,*/
-    top: '-100%',
-    fontSize:'2.0vh'
+    left:'80%',
+    
+    top: '-1.7em',/*'-110%',*/
+    fontSize:'1.8vh'
     
   }
 
@@ -57,11 +54,11 @@ const ProgressBar = (props) => {
     /*padding: '1%',*/
     color: 'black',
     margin: 5,
-    position: 'absolute',
-    left: '1%',
+    position: 'relative',
+    left: '-2em',/*'-10%',*/
     right: 0,
-    top: '115%',
-    fontSize:'2.3vh'
+    top: '15%',
+    fontSize:'2.1vh'
     	
     
   }
