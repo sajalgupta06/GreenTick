@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: top;
+    height:15rem!important;
 }
 .card {
     perspective: 150rem;
@@ -127,7 +128,7 @@ body {
 
   .custom-counter h5{
     margin-top: 1em;
-    MARGIN-LEFT: 0.8em;
+    MARGIN-LEFT: 0.5em;
   }
   
   .custom-counter li {
@@ -137,7 +138,7 @@ body {
   
 .table
 {
-    height: 356px;
+    height: 376px;
     
     display: flex;
     justify-content: center;

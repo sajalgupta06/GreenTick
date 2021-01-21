@@ -33,6 +33,21 @@ export default function Navbar() {
               </NavLink>
             </li>
             <li>
+            <NavLink
+              to="/login"
+              className="nav-link"
+              onClick={() => {
+                setClassName(!classname);
+              }}
+              activeStyle={{
+                
+                color: "#4e6ddb"
+              }}
+            >
+              Login
+            </NavLink>
+          </li>
+            <li>
               <NavLink
                 to="/Practice"
                 className="nav-link"

@@ -39,6 +39,7 @@ class Dashboard extends React.Component{
 
       
   ];
+  
   componentDidMount() {
    const  graphPercentage=74;
     var canvas = this.refs.canvas;
@@ -74,9 +75,12 @@ clearTimeout(bar);
 al++;
 }
 const bar=setInterval(progressBar,15);
+
+
 } 
    render(){
   return (
+    
     <div className="my-grid">
     <div className="cards1">
       <div className="card2" id="card1">
@@ -142,10 +146,11 @@ const bar=setInterval(progressBar,15);
           <ol className="dash-custom-counter">
             <h5 className="tableHeading">Previous Contest</h5>
             {this.data.map(items=>{
-              return <li>
+              return <a href="https://www.hackerrank.com/greenticks-weekly-11" target="blank"> <li>
                 {items.name}<br></br>
-                <h6 style={{    right: "0.6em"}}>{items.date}</h6>
+                <h6 >{items.date}</h6>
               </li>
+              </a>
             })}
           </ol>
         </div>

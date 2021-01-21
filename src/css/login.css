@@ -1,0 +1,342 @@
+.loginContainer{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    font-feature-settings: 'tnum';
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.sign-in-box{
+
+
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.65);
+font-size: 14px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+line-height: 1.5;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+box-sizing: border-box;
+width: 400px;
+background: white;
+padding: 40px 0 33px 0;
+border-radius: 3px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+border: 1px solid #eeeeee;
+margin: 0 auto;
+
+}
+
+
+.sign-in-container{
+    
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.65);
+font-size: 14px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+line-height: 1.5;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+box-sizing: border-box;
+max-width: 340px;
+margin: 0 auto;
+}
+
+.content_container{
+    
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.65);
+font-size: 14px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+line-height: 1.5;
+font-feature-settings: 'tnum';
+box-sizing: border-box;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+-webkit-box-align: stretch;
+align-items: stretch;
+}
+.content_container img{
+    
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.65);
+font-size: 14px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+line-height: 1.5;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+box-sizing: border-box;
+vertical-align: middle;
+border-style: none;
+height: 77px;
+margin-bottom: 35px;
+position:relative;
+width:100px;
+left:30%;
+}
+.login_form{
+    
+    --antd-wave-shadow-color: #1890ff;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    font-feature-settings: 'tnum';
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+.login_form_active{    
+
+}
+.username{
+    
+    --antd-wave-shadow-color: #1890ff;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    font-feature-settings: 'tnum';
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+.username_input{
+    
+--antd-wave-shadow-color: #1890ff;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+margin: 0;
+font-family: inherit;
+line-height: inherit;
+overflow: visible;
+width: 100%;
+box-sizing: border-box;
+color: #546e7a;
+border: 1px solid #cfd8dc;
+border-radius: 3px;
+font-weight: 300;
+text-overflow: ellipsis;
+transition: 0.4s all;
+touch-action: manipulation;
+padding: 8.85px 13px;
+font-size: 14px;
+}
+.password{
+    
+    --antd-wave-shadow-color: #1890ff;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    font-feature-settings: 'tnum';
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+} 
+
+.password_input{
+    
+--antd-wave-shadow-color: #1890ff;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+margin: 0;
+font-family: inherit;
+line-height: inherit;
+overflow: visible;
+width: 100%;
+box-sizing: border-box;
+color: #546e7a;
+border: 1px solid #cfd8dc;
+border-radius: 3px;
+font-weight: 300;
+text-overflow: ellipsis;
+transition: 0.4s all;
+touch-action: manipulation;
+padding: 8.85px 13px;
+font-size: 14px;
+}
+
+.signup-btn{
+    
+--antd-wave-shadow-color: #1890ff;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+box-sizing: border-box;
+font-weight: 400;
+touch-action: manipulation;
+margin: 0;
+font-family: inherit;
+overflow: visible;
+text-transform: none;
+border-radius: 3px;
+line-height: 20px;
+font-size: 14px;
+transition: 0.18s all ease-in-out;
+outline: 0;
+cursor: pointer;
+height: 40px;
+position: relative;
+z-index: 0;
+color: #ffffff;
+border: 0;
+padding: 0 13px;
+background: linear-gradient(215deg, #546e7a, #37474f);
+}
+.btn-content-container{
+    
+--antd-wave-shadow-color: #1890ff;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+font-weight: 400;
+font-family: inherit;
+text-transform: none;
+line-height: 20px;
+font-size: 14px;
+cursor: pointer;
+color: #ffffff;
+box-sizing: border-box;
+display: flex;
+-webkit-box-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+}
+.btn-content{
+    
+--antd-wave-shadow-color: #1890ff;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+font-weight: 400;
+font-family: inherit;
+text-transform: none;
+line-height: 20px;
+font-size: 14px;
+cursor: pointer;
+color: #ffffff;
+box-sizing: border-box;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.actions_bar{
+    margin-top: 1em!important;
+   
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    
+    --antd-wave-shadow-color: #1890ff;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    font-feature-settings: 'tnum', "tnum";
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.actions__3_WQ .sign-in-actions__3uV6 a{
+    
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+box-sizing: border-box;
+text-decoration: none;
+background-color: transparent;
+outline: none;
+transition: color 0.3s;
+touch-action: manipulation;
+color: #546e7a;
+font-size: 14px;
+line-height: 20px;
+cursor: pointer;
+}
+.sign-up-link{
+    cursor: pointer;
+    list-style: none;
+    color: #1890ff;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    font-feature-settings: 'tnum', "tnum";
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.Signup_btn{
+    
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+font-size: 14px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+line-height: 1.5;
+font-feature-settings: 'tnum';
+-webkit-box-direction: normal;
+box-sizing: border-box;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+margin-top: 20px;
+color: #bdbdbd;
+-webkit-box-pack: center;
+justify-content: center!important;
+}
+.container_link{
+    
+--antd-wave-shadow-color: #1890ff;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.65);
+font-size: 14px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+font-variant: tabular-nums;
+line-height: 1.5;
+font-feature-settings: 'tnum';
+box-sizing: border-box;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+-webkit-box-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+margin: 25px auto 0;
+}
+

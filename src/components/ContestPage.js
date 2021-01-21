@@ -37,7 +37,7 @@ function ContestPage() {
 
       <div className="content">
         <div className="card">
-        <a href={contestLink}>
+        <a href={contestLink} target="blank">
         
           <div className="card__side card__side--front">
           <div className="card__cta">
@@ -66,10 +66,12 @@ function ContestPage() {
         <ol className="custom-counter">
           <h5 className="tableHeading">Previous Contest</h5>
           {data.map(items=>{
-            return <li>
+            return  <a href={contestLink} target="blank"> <li>
+            
               {items.name}<br></br>
-              <h6 style={{    right: "0.6em"}}>{items.date}</h6>
+              <h6>{items.date}</h6>
             </li>
+            </a>
           })}
         </ol>
       </div>

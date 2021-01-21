@@ -11,6 +11,7 @@ import Discussion from "./components/Discussion";
 import Home from "./components/Home";
 import Practice from "./components/Practice";
 import Resource from "./components/Resources";
+import LoginPage from "./components/LoginPage";
 
 function App() {
  
@@ -25,6 +26,7 @@ function App() {
     <Route exact path='/learn' component={Learn}></Route>
     <Route exact path='/discussion' component={Resource}></Route>
     <Route exact path='/practice' component={Practice}></Route>
+    <Route exact path='/login' component={LoginPage}></Route>
     </Switch>
     </BrowserRouter>
 
