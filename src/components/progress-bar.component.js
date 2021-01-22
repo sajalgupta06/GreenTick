@@ -9,7 +9,7 @@ const ProgressBar = (props) => {
     height: '18%',
     width: '85%',
     backgroundColor:"#e0e0de", /*"#e0e0de",*/
-    borderRadius: 0,
+    borderRadius: 'inherit',
     margin: '4%',
     textAlign: 'left',
     
@@ -25,7 +25,7 @@ const ProgressBar = (props) => {
     height: '100%',
     width: `${completed}%`,
     backgroundColor: bgcolor,
-    borderRadius: 0,
+    borderRadius: 'inherit',
    /* textAlign: 'right',*/
     
     
